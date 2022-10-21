@@ -40,6 +40,8 @@ defmodule MoveNFTFreeMinterWeb.Router do
     # profile page
     live "/profile", ProfileLive, :index
     live "/profile/list_token/:id", ProfileLive, :list_token
+
+    live "/about", AboutLive, :index
   end
 
   # Other scopes may use custom stacks.

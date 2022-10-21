@@ -46,7 +46,7 @@ defmodule MoveNFTFreeMinterWeb.MintLive do
     with true <- AptosRPC.check_transaction_by_hash(client, hash) do
       msg =
         raw(
-          "Mint token succeed: <a href='https://explorer.devnet.aptos.dev/txn/#{hash}?network=testnet' target='_blank' class='font-semibold underline hover:text-blue-800 dark:hover:text-blue-900'>#{hash}</a>. Give it a click if you like."
+          "Mint token succeed: <a href='https://explorer.aptoslabs.com/txn/#{hash}?network=testnet' target='_blank' class='font-semibold underline hover:text-blue-800 dark:hover:text-blue-900'>#{hash}</a>. Give it a click if you like."
         )
 
       {:noreply,
@@ -155,11 +155,4 @@ defmodule MoveNFTFreeMinterWeb.MintLive do
 
     """
   end
-
-  defp error_to_string(:too_large), do: "Too large"
-  defp error_to_string(:too_many_files), do: "You have selected too many files"
-  defp error_to_string(:not_accepted), do: "You have selected an unacceptable file type"
-
-  # defp get_field(nil, _key), do: ""
-  # defp get_field(record, key), do: Map.get(record, key, "")
 end
