@@ -1,6 +1,6 @@
-# fly.toml file generated for aptos-nft-marketplace on 2022-09-19T18:45:42+08:00
+# fly.toml file generated for broken-mountain-2789 on 2022-10-22T17:39:01+08:00
 
-app = "aptos-nft-marketplace"
+app = "broken-mountain-2789"
 kill_signal = "SIGTERM"
 kill_timeout = 5
 processes = []
@@ -9,7 +9,7 @@ processes = []
   release_command = "/app/bin/migrate"
 
 [env]
-  PHX_HOST = "aptos-nft-marketplace.fly.dev"
+  PHX_HOST = "broken-mountain-2789.fly.dev"
   PORT = "8080"
 
 [experimental]

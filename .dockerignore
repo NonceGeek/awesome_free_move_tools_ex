@@ -1,0 +1,16 @@
+# flyctl launch added from .elixir_ls/.gitignore
+.elixir_ls/**/*
+
+# flyctl launch added from .gitignore
+_build
+cover
+deps
+doc
+.fetch
+**/erl_crash.dump
+**/*.ez
+**/*.beam
+config/*.secret.exs
+**/.elixir_ls
+**/node_modules
+**/.envrc
