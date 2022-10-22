@@ -10,7 +10,8 @@ import Config
 # which you should run after static files are built and
 # before starting your production server.
 config :move_nft_free_minter, MoveNFTFreeMinterWeb.Endpoint, cache_static_manifest: "priv/static/cache_manifest.json",
-  url: [host: "move-nft-free-minter.gigalixirapp.com", port: 443, scheme: "https"]
+  url: [host: "move-nft-free-minter.gigalixirapp.com", port: 443, scheme: "https"],
+  check_origin: false
 
 # Do not print debug messages in production
 config :logger, level: :info
