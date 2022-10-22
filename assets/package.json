@@ -9,7 +9,8 @@
     "npm": "8.x"
   },
   "scripts": {
-    "eslint": "eslint js/**"
+    "eslint": "eslint js/**",
+    "deploy": "cd .. && mix assets.deploy && rm -f _build/esbuild"
   },
   "devDependencies": {
     "eslint": "^8.23.0",
