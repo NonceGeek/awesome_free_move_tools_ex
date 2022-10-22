@@ -1,11 +1,9 @@
-# MoveNFTFreeMinter
+# awesome_free_move_tools_ex
 
-![maxresdefault](https://user-images.githubusercontent.com/3152452/192126123-33d1ac15-731b-4cf8-8829-003627553f0b.jpeg)
-
-MoveNFTFreeMinter is an Aptos-based NFT marketplace dapp
+awesome_free_move_tools_ex is the free tools that created by [NonceGeekDAO](https://noncegeek.com)
 It is implemented using Elixir [Phoenix](https://www.phoenixframework.org/)
 
-[contract code](https://github.com/myastrallabs/move_nft_free_minter-contract) 
+[contract code](https://github.com/noncegeek/awesome_free_move_tools_ex) 
 
 ## **Getting started**
 
@@ -22,9 +20,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## **Features**
 
 - [x] Mint NFT
-- [x] NFT marketplace
-- [ ] Support multi aptos wallet
-- [ ] Data broadcasting in Phoenix liveview
 
 ## **Contributing**
 
